@@ -136,3 +136,16 @@ function devvn_customize_register($wp_customize)
 }
 add_action("customize_register","devvn_customize_register");
 
+function get_custom_style() {
+    $options = get_theme_mods();
+    // var_dump(json_encode($options));die;
+    ?>
+    <style type="text/css">
+    footer.footer { 
+      background: <?php echo $options['footer_bg_color']; ?>; 
+      color: <?php echo $options['footer_text_color']; ?>;
+    }
+    </style>
+    <?php
+   }
+   add_action( 'wp_head', 'get_custom_style' );

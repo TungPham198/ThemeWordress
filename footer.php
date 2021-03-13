@@ -1,4 +1,5 @@
-<footer>
+
+            <footer class="footer_bg_color" style="background:<?php echo get_theme_mod('footer_bg_color');?>;">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">

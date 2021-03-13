@@ -1,4 +1,8 @@
-<!-- "var_dump( dynamic_sidebar('sidebar_dow'));" -->
+<!-- var_dump( dynamic_sidebar('sidebar_dow')); -->
+<!-- "echo get_theme_mod('footer_text');" -->
+
+
+
 
 <?php get_header(); ?>
 	<div id="content">
